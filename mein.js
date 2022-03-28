@@ -1,13 +1,13 @@
-// let dias = 09;
-// let horas = 23;
-// let minutos = 59;
-// let segundos = 59;
+let dias = 09;
+let horas = 23;
+let minutos = 59;
+let segundos = 59;
 
 
-let dias = new Date().getDays;
-let horas = new Date().getHours;
-let minutos = new Date().getMinutes;
-let segundos = new Date().getSeconds;
+// let dias = new Date().getDays;
+// let horas = new Date().getHours;
+// let minutos = new Date().getMinutes;
+// let segundos = new Date().getSeconds;
 
     setInterval(() => {
         document.getElementById('seconds').innerHTML = segundos;
